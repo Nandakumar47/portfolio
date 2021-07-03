@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/portfolio" exact>
+          <Route path="/portfolio" >
             <HomePage />
           </Route>
           <Route path="/portfolio/contact" exact>
