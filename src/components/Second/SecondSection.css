@@ -1,0 +1,169 @@
+.second-div {
+  height: 780px;
+  background-color: #f9f9f9;
+  padding-top: 160px;
+}
+.card-outer-div {
+  background-color: #212529;
+  margin: auto;
+  max-width: 65rem;
+  height: 520px;
+  display: flex;
+
+  padding: 20px;
+  box-shadow: 25px 25px 20px grey;
+}
+
+.card-first-half {
+  background-color: #212529;
+  width: 30rem;
+  padding: 30px;
+  color: #f9f9f9;
+}
+.image > img {
+  max-height: 120px;
+  max-width: 100px;
+  border-radius: 40%;
+  border: solid 5px #f9f9f9;
+}
+.image {
+  width: 100px;
+}
+.top-half {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-weight: 700;
+}
+.bottom-half {
+  padding: 20px;
+}
+.bottom-half > p {
+  font-size: 20px;
+}
+.bottom-half img {
+  width: 50px;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons > * {
+  font-size: 50px;
+  margin: 10px 20px;
+  color: #39a2db;
+  transition: transform 0.2s;
+}
+.icons > div:hover {
+  transform: scale(1.08);
+}
+.icons p {
+  font-size: 10px;
+  text-align: center;
+  color: #f9f9f9;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.card-second-half {
+  color: #f9f9f9;
+  padding: 20px;
+  width: 25rem;
+}
+.card-second-half hr {
+  width: 150px;
+  border-bottom: #39a2db solid 5px;
+}
+.card-second-half h4 {
+  margin: 10px 0;
+}
+.card-second-half p {
+  margin: 20px 0;
+}
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 0.6rem;
+  }
+  h4 {
+    font-size: 0.6rem;
+  }
+  p {
+    font-size: 0.5rem;
+    margin-bottom: 2px;
+  }
+  .details{
+    font-size: 10px;
+  }
+  .icons > * {
+    font-size: 15px;
+    margin: 2px 4px;
+    color: #39a2db;
+    transition: transform 0.2s;
+  }
+  .icons p {
+    font-size: 0.3rem;
+    text-align: center;
+    color: #f9f9f9;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .bottom-half > p {
+    font-size: 0.5rem;
+    margin-bottom: 0;
+  }
+  .second-div {
+    padding-top: 140px;
+    height: 480px;
+  }
+  .card-outer-div {
+    max-width: 17rem;
+    height: 230px;
+    padding: 5px;
+    justify-content: space-between;
+    box-shadow: 6px 10px 10px grey;
+  }
+
+  .card-first-half {
+    width: 8.5rem;
+    padding: 5px;
+  }
+  .image {
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .image > img {
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 0;
+    border: solid 2px #f9f9f9;
+  }
+
+
+  .card-second-half h4 {
+    margin: 2px 0;
+  }
+  .card-second-half p {
+    margin: 4px 0;
+  }
+  .card-second-half hr {
+    width: 50px;
+    margin: 10px 0;
+    border-bottom: #39a2db solid 1.5px;
+  }
+
+  .bottom-half {
+    padding: 0;
+  }
+  .card-second-half {
+    padding: 5px;
+    width: 8.5rem;
+  }
+  .top-half{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,37 @@
+.footer-main-div{
+    background-color: #E1E5EA;
+   
+  text-align: center;
+  padding: 50px 0;
+  color: #212529;
+}
+
+.socialMedia > *{
+    margin: 10px;
+}
+.under_line{
+    left: 650px;
+    border:10px dotted #212529;
+    border-top: 0;
+    position: relative;
+    width:200px;
+    background-color: #E1E5EA;
+}
+@media only screen and (max-width: 320px){
+    .under_line{
+        left: 110px;
+        width: 80px;
+    }
+    .btn .btn-primary{
+        font-size: 20px;
+        width: 20px;
+    }
+    .footer-main-div{
+        
+        height: 180px;
+      
+      padding: 10px 0;
+      
+    }
+    
+}
