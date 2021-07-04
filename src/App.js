@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage";
 import ContactMe from "./pages/ContactMe";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
@@ -17,19 +17,19 @@ import ProjectPage from "./pages/ProjectPage";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio">
         <Header />
         <Switch>
-          <Route path="/portfolio" exact>
+          <Route path="/" exact>
             <HomePage />
           </Route>
-          <Route path="/portfolio/contact" exact>
+          <Route path="/contact" exact>
             <ContactMe />
           </Route>
-          <Route path="/portfolio/project" exact>
+          <Route path="/project" exact>
             <ProjectPage />
           </Route>
-          <Redirect to="/portfolio" />
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </Router>
