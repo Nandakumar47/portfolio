@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage";
 import ContactMe from "./pages/ContactMe";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect,
