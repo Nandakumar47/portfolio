@@ -25,7 +25,7 @@ function App() {
           <Route path="/portfolio/contact" exact>
             <ContactMe />
           </Route>
-          <Route path="/portfolio/project" exact>
+          <Route path="/portfolio/project" >
             <ProjectPage />
           </Route>
           <Redirect to="/portfolio" />
