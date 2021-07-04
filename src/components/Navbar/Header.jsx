@@ -28,8 +28,8 @@ function Header() {
           <Nav className=" ml-auto navLinks" variant="light">
             <Nav.Link href="/portfolio">Home</Nav.Link>
             <Nav.Link href="/portfolio/#aboutMe">About Me</Nav.Link>
-            <Nav.Link href="/portfolio/#/project">Projects</Nav.Link>
-            <Nav.Link href="/portfolio/#/contact">Contact</Nav.Link>
+            <Nav.Link href="/portfolio/project">Projects</Nav.Link>
+            <Nav.Link href="/portfolio/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -10,6 +10,7 @@ import {
   Route,
   Switch,
   Redirect,
+  
 } from "react-router-dom";
 import ProjectPage from "./pages/ProjectPage";
 
@@ -22,10 +23,10 @@ function App() {
           <Route path="/portfolio" exact>
             <HomePage />
           </Route>
-          <Route path="/portfolio/#/contact" exact>
+          <Route path="/portfolio/contact" exact>
             <ContactMe />
           </Route>
-          <Route path="/portfolio/#/project" exact>
+          <Route path="/portfolio/project" exact>
             <ProjectPage />
           </Route>
           <Redirect to="/portfolio" />
