@@ -29,7 +29,7 @@ function Header() {
             <Nav.Link href="/portfolio">Home</Nav.Link>
             <Nav.Link href="#aboutMe">About Me</Nav.Link>
             <Nav.Link href="/portfolio/#/project">Projects</Nav.Link>
-            <Nav.Link href="/portfolio/#/contact">Contact</Nav.Link>
+            <Nav.Link href="/#/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
