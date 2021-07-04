@@ -23,13 +23,13 @@ function App() {
           <Route path="/portfolio" exact>
             <HomePage />
           </Route>
-          <Route path="/portfolio/contact" exact>
+          <Route path="/portfolio/#/portfolio/contact" exact>
             <ContactMe />
           </Route>
-          <Route path="/portfolio/project" exact>
+          <Route path="/portfolio/#/portfolio/project" exact>
             <ProjectPage />
           </Route>
-          <Redirect to="/portfolio" />
+          <Redirect to="/portfolio/#s/portfolio" />
         </Switch>
         <Footer />
       </Router>
