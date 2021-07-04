@@ -30,9 +30,9 @@ function Project() {
         <a href="https://nandakumar47.github.io/notes/">
         <div className="project-card">
           <img src={notes} alt="" />
-          <h1>Project 3</h1>
+          <h1>Notes</h1>
           <p>
-          Project descriptions here
+          A simple notes keeping app
           </p>
         </div>
         </a>
