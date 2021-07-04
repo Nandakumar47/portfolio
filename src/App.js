@@ -10,16 +10,14 @@ import {
   Route,
   Switch,
   Redirect,
-  browserHistory,
-  hashHistory 
+  
 } from "react-router-dom";
-
 import ProjectPage from "./pages/ProjectPage";
-let history = process.env.NODE_ENV === "production" ? browserHistory : hashHistory;
+
 function App() {
   return (
     <div className="App">
-      <Router history={history}>
+      <Router>
         <Header />
         <Switch>
           <Route path="/portfolio" exact>
