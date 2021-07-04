@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import toDo from "./todo.png";
+import toDo from "./todo.PNG";
 function Project() {
   return (
     <div className="project-main-div">
