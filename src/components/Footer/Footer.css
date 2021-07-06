@@ -1,37 +1,84 @@
-.footer-main-div{
-    background-color: #E1E5EA;
-   
+.footer-main-div {
+  background-color: #e1e5ea;
   text-align: center;
   padding: 50px 0;
   color: #212529;
+  height: fit-content;
+}
+footer {
+  height: fit-content;
 }
 
-.socialMedia > *{
-    margin: 10px;
+.socialMedia > * {
+  margin: 10px;
 }
-.under_line{
-    left: 650px;
-    border:10px dotted #212529;
-    border-top: 0;
-    position: relative;
-    width:200px;
-    background-color: #E1E5EA;
+.footer-main-div .btn{
+  width: 120px;
 }
-@media only screen and (max-width: 320px){
-    .under_line{
-        left: 110px;
-        width: 80px;
-    }
-    .btn .btn-primary{
-        font-size: 20px;
-        width: 20px;
-    }
-    .footer-main-div{
-        
-        height: 180px;
-      
-      padding: 10px 0;
-      
-    }
-    
+.under_line {
+  left: 43vw;
+  border: 10px dotted #212529;
+  border-top: 0;
+  position: relative;
+  width: 200px;
+  background-color: #e1e5ea;
+}
+@media only screen and (max-width: 413px) {
+  .under_line {
+    left: 35vw;
+    width: 80px;
+    margin: 0;
+  }
+  .footer-main-div .btn{
+    width: 70px;
+    font-size: 10px;
+    padding: 3px;
+  }
+
+  .footer-main-div {
+    height: 180px;
+    padding: 10px 0;
+  }
+}
+@media (min-width: 414px) and (max-width: 599px) {
+  .footer-main-div > hr {
+    left: 38vw;
+    width: 80px;
+    margin: 0;
+  }
+
+  .footer-main-div .btn{
+    width: 80px;
+    font-size: 12px;
+    padding: 4px;
+  }
+  .btn {
+    width: 20px;
+  }
+  .footer-main-div {
+    height: fit-content;
+    padding: 10px 0;
+  }
+}
+@media (min-width: 600px) and (max-width: 769px) {
+  .footer-main-div > hr {
+    left: 41vw;
+    width: 80px;
+    margin: 0;
+  }
+
+  .footer-main-div .btn{
+    width: 90px;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .btn .btn-primary {
+    font-size: 8rem;
+    width: 100px;
+  }
+  .footer-main-div {
+    height: fit-content;
+    padding: 10px 0;
+  }
 }

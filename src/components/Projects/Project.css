@@ -1,5 +1,5 @@
 .project-main-div {
-  height: fit-content ;
+  height: fit-content;
   text-align: center;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -7,7 +7,7 @@
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  
+
   margin: 50px 50px;
   justify-content: space-around;
 }
@@ -16,13 +16,13 @@
   width: 300px;
   padding: 40px 20px;
   height: fit-content;
-  color: #FFC107;
+  color: #ffc107;
   background-color: #212529;
   -webkit-box-shadow: 0 0 10px grey;
   box-shadow: 0 0 20px grey;
   transition: transform 0.5s;
 }
-.project-card:hover{
+.project-card:hover {
   transform: scale(1.08);
 }
 iframe {
@@ -30,22 +30,62 @@ iframe {
   width: 350px;
   height: 250px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.project-card > img{
-    width: 250px;
-    border: solid 5px whitesmoke ;
-    
+.project-card > img {
+  width: 250px;
+  border: solid 5px whitesmoke;
 }
-.project-card h1{
-    color: aliceblue;
+.project-card h1 {
+  color: aliceblue;
 }
-h1,p{
-    margin: 10px;
+h1,
+p {
+  margin: 10px;
 }
-.project-main-div > h1{
+.project-main-div > h1 {
   color: #212529;
   font-weight: 700;
   font-size: 4.5rem;
+}
+@media only screen and (max-width: 413px) {
+  .project-main-div h1 {
+    font-size: 2rem;
+  }
+  .project-card {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .project-card > img {
+    width: 200px;
+    border: solid 5px whitesmoke;
+  }
+}
+@media (min-width: 414px) and (max-width: 599px) {
+  .project-main-div h1 {
+    font-size: 2rem;
+  }
+  .project-card {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .project-card > img {
+    width: 250px;
+    border: solid 5px whitesmoke;
+  }
+}
+@media (min-width: 600px) and (max-width: 769px)  {
+  .project-card {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .project-card {
+    flex-grow: 4;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }

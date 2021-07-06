@@ -1,66 +1,106 @@
-.main-div{
-    height:720px;
-    padding-top: 150px;
-    
+.main-div {
+  height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 100px;
+ 
 }
 
-.form-div{
-    background-color: #B8DFD8;
-    border-radius: 5px;
-    max-width: 700px;
-    height: 500px;
+.form-div {
+  background-color: #b8dfd8;
+  border-radius: 5px;
+  max-width: 700px;
+  height: 500px;
+  margin: auto;
+
+  padding: 50px;
+}
+.form-div input {
+  width: 100%;
+  height: 30px;
+}
+.form-div div {
+  margin: 20px;
+}
+form > * {
+  font-size: 15px;
+  margin: 5px;
+  display: block;
+
+  border: none;
+  border-radius: 5px;
+}
+form {
+  color: #212529;
+  font-weight: 700;
+}
+.btn {
+  width: 80px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+textarea {
+  width: 100%;
+}
+@media only screen and (max-width: 413px) {
+  .main-div {
+    padding-top: 60vw;
+  }
+  .form-div {
+    max-width: 80vw;
+    height: fit-content;
     margin: auto;
-    padding-left: 150px;
-    padding-top: 50px;
-}
-.form-div  input{
-    width: 380px;
-}
-.form-div div{
-    margin: 20px;
-}
-form > *{
-    font-size: 15px;
-    margin: 5px;
+    padding: 20px;
+  }
+  form > * {
+    font-size: 10px;
+    margin-bottom: 5px;
     display: block;
-    max-width: 400px;
+    max-width: 100%;
     border: none;
     border-radius: 5px;
-}
-form{
-    color: #212529;
-    font-weight: 700;
-}
-.btn{
+  }
+  .form-div input {
+    width: 100%;
+    height: 20px;
+  }
+  .form-div .btn {
     margin-top: 20px;
+    font-size: 10px;
+    padding: 3px 6px;
+  }
 }
-@media only screen and (max-width: 320px){
-    .main-div{
-        height:580px;
-        padding-top: 180px;
-        
-    }
-    .form-div{
-        max-width: 250px;
-        height: 300px;
-        margin: auto;
-        padding-left: 20px;
-        padding-top: 20px;
-    }
-    form > *{
-        font-size: 10px;
-        margin: 5px;
-        display: block;
-        max-width: 200px;
-        border: none;
-        border-radius: 5px;
-    }
-    .form-div  input{
-        width: 400px;
-    }
-    .btn{
-        margin-top: 20px;
-        font-size: 10px;
-        padding: 3px 6px;
-    }
+@media (min-width: 600px) and (max-width: 767px) {
+  .main-div {
+    height: 130vw;
+    padding-top: 18px;
+  }
+  
+  .form-div {
+    max-width: 85vw;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 5vw;
+    margin-bottom: 20px;
+  }
+  .form-div input {
+    width: 100%;
+  }
+  form > * {
+    margin: 15px 0;
+  }
+}
+@media (min-width: 414px) and (max-width: 599px) {
+  .main-div {
+    height: 120vh;
+    padding-top: 120px;
+  }
+  .form-div {
+    max-width: 85vw;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  form > * {
+    margin: 15px 0;
+  }
 }
