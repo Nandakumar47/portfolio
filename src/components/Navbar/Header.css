@@ -1,7 +1,7 @@
 .navbar1 {
   background-color: #212529;
   height: 100px;
-  padding: 50px;
+  padding: 20px 0 0 0;
   position: fixed;
   top: 0;
   
@@ -76,7 +76,7 @@
  padding: 20px 0 0 0;
   }
   .ml-auto {
-    background-color: white;
+    background-color: #212529;
     background-color: visible;
   }
   .navbar2 {
@@ -91,16 +91,15 @@
 }
 @media (min-width: 600px) and (max-width: 767px){
     .navbar1 {
-      padding-left: 0;
-      padding-right:10px;
+      padding: 20px 0 0 0;
     }
     .ml-auto {
-      background-color: white;
+      background-color: #212529;
       background-color: visible;
+      padding-right: 160px;
     }
     .navbar2 {
-      padding-left: 0;
-      padding-right: 0;
+      padding: 20px 0 0 0;
     }
     .navbar .navbar-nav {
       flex-direction: row;
@@ -110,5 +109,12 @@
     .navbar .navbar-nav .nav-link {
       margin-left: 50px;
       
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px){
+    .ml-auto {
+      background-color: #212529;
+      background-color: visible;
+      padding-right: 60px;
     }
   }
