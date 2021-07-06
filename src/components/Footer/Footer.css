@@ -60,7 +60,7 @@ footer {
     padding: 10px 0;
   }
 }
-@media (min-width: 600px) and (max-width: 769px) {
+@media (min-width: 600px) and (max-width: 767px) {
   .footer-main-div > hr {
     left: 41vw;
     width: 80px;
