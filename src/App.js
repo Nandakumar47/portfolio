@@ -10,9 +10,9 @@ import {
   Route,
   Switch,
   Redirect,
-  
 } from "react-router-dom";
 import ProjectPage from "./pages/ProjectPage";
+import Education from "./components/Education/Education";
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
           <Route path="/project" exact>
             <ProjectPage />
           </Route>
+          <Route path="/education" component={Education} />
           <Redirect to="/" />
         </Switch>
         <Footer />

@@ -27,7 +27,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ml-auto navLinks" variant="light">
             <Nav.Link href="/portfolio">Home</Nav.Link>
-            <Nav.Link href="#aboutMe">About Me</Nav.Link>
+            <Nav.Link href="/portfolio/#/education">Education</Nav.Link>
             <Nav.Link href="/portfolio/#/project">Projects</Nav.Link>
             <Nav.Link href="/portfolio/#/contact">Contact</Nav.Link>
           </Nav>

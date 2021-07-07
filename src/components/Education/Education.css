@@ -1,0 +1,18 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    
+  }
+  
+  td, th {
+    border: 5px solid #212529;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  .education-main-div{
+      padding-top: 200px;
+      height: 580px;
+  }
