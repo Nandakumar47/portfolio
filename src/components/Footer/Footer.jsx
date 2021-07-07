@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-main-div">
         <h2>Get in touch..</h2>
         <hr className="under_line" />
-        <Button href="/contact">Contact me</Button>
+        <Button href="/portfolio/#/contact">Contact me</Button>
         <div className="socialMedia">
           <FaLinkedin style={{color:"#0077b5"}}/>
           <FaInstagram style={{color:"#cd486b"}}/>
